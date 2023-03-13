@@ -22,7 +22,7 @@ def get_boxeador(id):
         return jsonify({'mensaje': 'No se encontro el boxeador solicitado'})
     boxeadores = []
     for row in data:
-        boxeador = {'id': row[0], 'nombre': row[1], 'peso': row[2], 'altura': row[3], 'edad': row[4], 'record': row[5]}
+        boxeador = {'id': row[0], 'nombre': row[1]+" "+row[2], 'peso': row[3], 'altura': row[4], 'edad': row[5], 'record': row[6]}
         boxeadores.append(boxeador)
     return jsonify(boxeadores)
 
@@ -35,7 +35,7 @@ def get_boxeadores():
     cursor.close()
     boxeadores = []
     for row in data:
-        boxeador = {'id': row[0], 'nombre': row[1], 'peso': row[2], 'altura': row[3], 'edad': row[4], 'record': row[5]}
+        boxeador = {'id': row[0], 'nombre': row[1]+" "+row[2], 'peso': row[3], 'altura': row[4], 'edad': row[5], 'record': row[6]}
         boxeadores.append(boxeador)
     return jsonify(boxeadores)
 
