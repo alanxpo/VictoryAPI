@@ -11,6 +11,10 @@ db = mysql.connector.connect(
     database="victoryapi"
 )
 
+@app.route('/')
+def hello():
+    return '¡Hola, mundo!'
+
 #Definición de ruta para obtener un boxeador específico
 @app.route('/api/sql/boxeadores/<int:id>')
 def get_boxeador(id):
