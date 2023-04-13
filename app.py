@@ -11,7 +11,7 @@ db = mysql.connector.connect(
     database="victoryapi"
 )
 
-@app.route('/')
+@app.route('/xd')
 def hello():
     return '¡Hola, mundo!'
 
