@@ -1,0 +1,41 @@
+{
+    "apiName": "VictoryAPI",
+    "url": "victoryapi.com",
+    "description": "VictoryAPI es una API REST dedicada al mundo del boxeo. Proporciona una plataforma para acceder a información actualizada y precisa sobre boxeadores, peleas y campeonatos a nivel mundial. Esta API es una herramienta útil para aficionados, periodistas deportivos, casas de apuestas y organizadores de eventos que deseen obtener estadísticas y datos detallados sobre el mundo del boxeo.",
+    "authors": ["Alan Muro", "Alan Viera"],
+    "endpoints": [
+        {
+            "url": "/about",
+            "limit": "500"
+        },
+        {
+            "url": "/",
+            "limit": "500"
+        },
+        {
+            "url": "/api/sql/boxeadores",
+            "limit": "500"
+        },
+        {
+            "url": "/api/sql/boxeadores/{id}",
+            "limit": "500"
+        },
+        {
+            "url": "/api/sql/estadios",
+            "limit": "500"
+        },
+        {
+            "url": "/api/sql/entrenadores",
+            "limit": "500"
+        },
+        {
+            "url": "/api/sql/categorias",
+            "limit": "500"
+        },
+        {
+            "url": "/mostrar_boxeadores",
+            "limit": "500"
+        }
+    ],
+    "license": "cc-by-4.0"
+}

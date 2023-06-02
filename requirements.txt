@@ -1,0 +1,9 @@
+distlib==0.3.6
+filelock==3.9.0
+Flask==2.2.3
+pip==22.3
+pipenv==2023.2.18
+PyJWT==2.6.0
+Flask_JWT_Extended==4.4.4
+mysql-connector-python==8.0.33
+user_agents==2.2.0
