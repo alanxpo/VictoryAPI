@@ -13,7 +13,7 @@ Ultima actualización: 02/06/2023
 - [Background](#background)
 - [Overview](#overview)
 - [Diseño Detallado](#diseño-detallado)
-- [Soluciones](#soluciones)Métricas
+- [Soluciones](#soluciones)
 - [Consideraciones](#consideraciones)
 - [Metricas](#metricas)
 - [Requerimientos](#requerimientos)
