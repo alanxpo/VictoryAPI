@@ -2,7 +2,7 @@
 
 Autores: Alan Cordova Viera, Alan Alfredo ulloa muro
 
-Ultima actualización: 25/05/2023
+Ultima actualización: 02/06/2023
 
 # Contenido
 - [VictoryAPI](#victoryapi)
