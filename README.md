@@ -3,15 +3,9 @@
 
 Autores: Alan Cordova Viera, Alan Alfredo ulloa muro
 
-<<<<<<< HEAD
 Ultima actualización: 25/05/2023
 
 # Contenido
-=======
-Ultima actualización: 2023/03/02
-
-## Contenido
->>>>>>> a24912c74847e8f8ca2bb010113f1b1607082345
 - Goals
 - Non-Goals
 - Background
@@ -26,31 +20,19 @@ Ultima actualización: 2023/03/02
 - Consideraciones
 - Métricas
 
-<<<<<<< HEAD
 # Links
-=======
-## Links
->>>>>>> a24912c74847e8f8ca2bb010113f1b1607082345
 - [github.com/keioupimpero](#)
 - [github.com/alanmuro01](#)
 - [python.org](#)
 
-<<<<<<< HEAD
 # Objetivo
 El objetivo de la API de Boxeo es proporcionar una plataforma para acceder a información actualizada y precisa sobre boxeadores, peleas y campeonatos a nivel mundial. Esta API será una herramienta útil para aficionados, periodistas deportivos, casas de apuestas y organizadores de eventos que deseen obtener estadísticas y datos detallados sobre el mundo del boxeo.
 
 # Goals
-=======
-## Objetivo
-El objetivo de la API de Boxeo es proporcionar una plataforma para acceder a información actualizada y precisa sobre boxeadores, peleas y campeonatos a nivel mundial. Esta API será una herramienta útil para aficionados, periodistas deportivos, casas de apuestas y organizadores de eventos que deseen obtener estadísticas y datos detallados sobre el mundo del boxeo.
-
-## Goals
->>>>>>> a24912c74847e8f8ca2bb010113f1b1607082345
  - Proporcionar acceso a información detallada sobre boxeadores, peleas y campeonatos a nivel mundial.
  - Ofrecer datos actualizados en tiempo real.
  - Facilitar la integración con otras aplicaciones y herramientas.
  - Ofrecer una interfaz intuitiva y fácil de usar.
-<<<<<<< HEAD
 # Non-Goals
  - No ofrecer información engañosa o imprecisa.
  - No tener una interfaz complicada que dificulte la comprensión de la información.
@@ -108,49 +90,16 @@ La API cuenta con los siguientes endpoints y funcionalidades:
 - /api/list/endpoints (GET): Devuelve una lista de todos los endpoints disponibles en la API, incluyendo su ruta y método HTTP permitido. Los datos se generan dinámicamente utilizando la biblioteca Flask.
 
 # Consideraciones
-=======
-## Non-Goals
- - No ofrecer información engañosa o imprecisa.
- - No tener una interfaz complicada que dificulte la comprensión de la información.
-
-## Background
- La API de Boxeo se desarrolla para brindar una herramienta más completa y actualizada sobre el mundo del boxeo. Se busca cubrir la necesidad de contar con datos precisos sobre boxeadores, peleas y campeonatos a nivel mundial, con el fin de proporcionar información actualizada para aficionados, periodistas deportivos, casas de apuestas y organizadores de eventos.
-
-## Overview
-La API de Boxeo será una plataforma en línea que proporcionará información detallada y actualizada sobre boxeadores, peleas y campeonatos a nivel mundial. La API estará diseñada para ser fácil de usar y fácilmente integrable con otras aplicaciones y herramientas. Los datos se actualizarán constantemente para garantizar que los usuarios tengan acceso a la información más reciente.
-
-## Diseño detallado
-
-
-## Solution 1
-### Frontend
-_Frontend…_
-### Backend
-_Backend…_
-
-## Solution 2
-### Frontend
-_Frontend…_
-### Backend
-_Backend…_
-
-## Consideraciones
->>>>>>> a24912c74847e8f8ca2bb010113f1b1607082345
  - La API debe ser fácil de usar.
  - La seguridad de los datos de los usuarios es una prioridad.
  - La API debe ser escalable y capaz de manejar grandes cantidades de tráfico.
 
 
-<<<<<<< HEAD
 # Métricas
-=======
-## Métricas
->>>>>>> a24912c74847e8f8ca2bb010113f1b1607082345
  -  Tiempo de respuesta: mide el tiempo que tarda la API en responder a las solicitudes de los usuarios.
  - Tasa de error: mide la cantidad de solicitudes que resultan en errores de la API.
  - Tasa de éxito: mide la cantidad de solicitudes que se completan con éxito.
  - Cantidad de solicitudes: mide la cantidad total de solicitudes que se realizan a la API.
-<<<<<<< HEAD
 
 # Requerimientos
  -  Python 3.10
@@ -216,5 +165,3 @@ Ejemplo:
     }
     
 De esta manera, utilizando el encabezado de autorización con el valor del token Bearer en Postman, podrás acceder a los endpoints protegidos y recibir la información en formato JSON. Asegúrate de mantener el token de forma segura y no compartirlo con otros, ya que proporciona acceso a los recursos protegidos de la API.
-=======
->>>>>>> a24912c74847e8f8ca2bb010113f1b1607082345
