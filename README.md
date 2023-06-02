@@ -1,24 +1,24 @@
 # VictoryAPI
 
-
 Autores: Alan Cordova Viera, Alan Alfredo ulloa muro
 
 Ultima actualización: 25/05/2023
 
 # Contenido
-- Goals
-- Non-Goals
-- Background
-- Overview
-- Diseño Detallado
-  - Solucion 1
-    - Frontend
-    - Backend
-  - Solucion 2
-    - Frontend
-    - Backend
-- Consideraciones
-- Métricas
+- [VictoryAPI](#victoryapi)
+- [Contenido](#contenido)
+- [Links](#links)
+- [Goals](#goals)
+- [Non-Goals](#non-goals)
+- [Background](#background)
+- [Overview](#overview)
+- [Diseño Detallado](#diseño-detallado)
+- [Soluciones](#soluciones)Métricas
+- [Consideraciones](#consideraciones)
+- [Metricas](#metricas)
+- [Requerimientos](#requerimientos)
+- [Instalación](#instalacion)
+- [Uso](#uso)
 
 # Links
 - [github.com/keioupimpero](#)
@@ -95,7 +95,7 @@ La API cuenta con los siguientes endpoints y funcionalidades:
  - La API debe ser escalable y capaz de manejar grandes cantidades de tráfico.
 
 
-# Métricas
+# Metricas
  -  Tiempo de respuesta: mide el tiempo que tarda la API en responder a las solicitudes de los usuarios.
  - Tasa de error: mide la cantidad de solicitudes que resultan en errores de la API.
  - Tasa de éxito: mide la cantidad de solicitudes que se completan con éxito.
